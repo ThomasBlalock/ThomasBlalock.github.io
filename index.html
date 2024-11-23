@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Blalock - Personal Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+                <h2>Thomas Blalock</h2>
+            </div>
+            <nav class="nav-buttons">
+                <button class="nav-btn" data-content="main">Main</button>
+                <button class="nav-btn" data-content="resume">Resume</button>
+
+                <div class="dropdown">
+                    <button class="nav-btn dropdown-btn">Projects ▼</button>
+                    <div class="dropdown-content">
+                        <button class="dropdown-item" data-content="bci-speller">BCI Speller</button>
+                        <button class="dropdown-item" data-content="flexible-input-networks">Flexible Input
+                            Networks</button>
+                        <button class="dropdown-item" data-content="autonomous-rover">Autonomous Rover</button>
+                    </div>
+                </div>
+
+                <button class="nav-btn" data-content="awards">Awards</button>
+            </nav>
+            <div class="content-box" id="sidebar-content">
+                <p>Welcome to my personal page! This is some dummy text. Feel free to customize it.</p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1>Operations Research Analyst</h1>
+            <h3>Data Scientist & Computer Scientist</h3>
+
+            <section>
+                <h2>Summary</h2>
+                <p>This is a summary section. Replace this dummy text with your actual summary.</p>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <p>This is an education section. Replace this dummy text with your educational background.</p>
+            </section>
+
+            <section id="section-1">
+                <h2>Section 1</h2>
+                <p>Content for section 1. You can add cool functionality here later.</p>
+            </section>
+
+            <section id="section-2">
+                <h2>Section 2</h2>
+                <p>Content for section 2. You can add cool functionality here later.</p>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
